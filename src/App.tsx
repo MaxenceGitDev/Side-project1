@@ -1,9 +1,11 @@
+import { Outlet } from "react-router-dom";
+
 function App() {
-  return (
-    <>
-      <h1>React + Biome = Template</h1>
-    </>
-  );
+	return (
+		<>
+			<Outlet />
+		</>
+	);
 }
 
 export default App;

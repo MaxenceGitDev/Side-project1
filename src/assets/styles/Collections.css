@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.collection-container {
+	margin-top: 4rem;
+}
+
+.collection-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.collection-card > img {
+	height: 16rem;
+	border-radius: 7px;
+}
+h1 {
+	text-align: center;
+	padding: 2rem;
+}
